@@ -48,7 +48,7 @@ export function StockChart({ symbol }: StockChartProps) {
           const data = await response.json()
           if (data && Array.isArray(data)) {
             const formattedData = data.map((point: any, index: number) => ({
-              time: point.time || point.timestamp || `${index}`,
+              time: point.time || point.timestamp || new Data().toLocalTimeString(),
               price: Number.parseFloat(point.price || point.close || point.ltp || 0),
               volume: point.volume ? Number.parseInt(point.volume) : undefined,
             }))

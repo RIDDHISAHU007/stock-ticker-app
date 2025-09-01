@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   },
   description:
     "Professional stock ticker application with real-time market data, detailed stock information, interactive charts, and comprehensive analysis tools. Track stocks, view price movements, and make informed investment decisions.",
-  generator: "v0.app",
+
   keywords: [
     "stocks",
     "stock market",
@@ -35,14 +35,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://stockticker.vercel.app"),
+  metadataBase: new URL("https://stock-ticker-app-sable.vercel.app/"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://stockticker.vercel.app",
+    url: "https://stockticker.app",
     title: "StockTicker - Real-Time Stock Market Data & Analysis",
     description:
       "Professional stock ticker application with real-time market data, detailed stock information, and comprehensive analysis tools.",

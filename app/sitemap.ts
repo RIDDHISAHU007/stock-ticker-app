@@ -5,13 +5,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: baseUrl,
+      url: baseUrl,/*for home page*/
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 1,
     },
     {
-      url: `${baseUrl}/stock`,
+      url: `${baseUrl}/stock`,/*for stock page*/
       lastModified: new Date(),
       changeFrequency: "hourly",
       priority: 0.8,

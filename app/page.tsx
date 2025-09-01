@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: "StockTicker - Real-Time Stock Market Data",
     description:
       "Search stocks, track market movements, and analyze financial data with our comprehensive stock ticker application.",
-    url: "https://stockticker.vercel.app",
+    url: "https://stockticker.app",
     type: "website",
   },
   alternates: {
